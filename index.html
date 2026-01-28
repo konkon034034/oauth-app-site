@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カツミ・ヒロシ動画自動投稿システム</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Hiragino Sans', 'Meiryo', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .logo {
+            text-align: center;
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.8;
+            margin-bottom: 16px;
+            color: #555;
+        }
+        .section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        h2 {
+            color: #764ba2;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        ul {
+            margin-left: 20px;
+            line-height: 2;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #888;
+            font-size: 14px;
+        }
+        a {
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">🎬</div>
+            <h1>カツミ・ヒロシ動画自動投稿システム</h1>
+            
+            <p>
+                本アプリケーションは、YouTube Data APIを使用して動画を自動的にアップロードする
+                個人利用目的のツールです。
+            </p>
+            
+            <div class="section">
+                <h2>📋 アプリケーションの機能</h2>
+                <ul>
+                    <li>AI生成コンテンツの自動動画化</li>
+                    <li>YouTube への自動アップロード</li>
+                    <li>定期スケジュールによる自動投稿</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>🔐 データの取り扱い</h2>
+                <p>
+                    本アプリケーションは以下のYouTube APIスコープを使用します：
+                </p>
+                <ul>
+                    <li><code>youtube.upload</code> - 動画のアップロード</li>
+                    <li><code>youtube</code> - チャンネル管理</li>
+                </ul>
+                <p>
+                    取得したアクセス権限は、動画のアップロードのみに使用され、
+                    第三者への共有や販売は一切行いません。
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2>📄 プライバシーポリシー</h2>
+                <p>
+                    詳細なプライバシーポリシーは
+                    <a href="privacy.html">こちら</a>をご確認ください。
+                </p>
+            </div>
+            
+            <div class="footer">
+                <p>© 2026 カツミ・ヒロシ動画システム</p>
+                <p>お問い合わせ: hyg578gth@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
